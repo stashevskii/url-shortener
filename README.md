@@ -1,11 +1,19 @@
-# FastAPI Starter Template
+# URL Shortener
 
-A production-ready template for building FastAPI applications with PostgreSQL, SQLAlchemy, and modern best practices.
+## Description
+A URL shortening service built with FastAPI backend and vanilla JavaScript frontend. Provides basic link shortening functionality with click statistics tracking.
+
+## Technical Stack
+- **Backend**: FastAPI (Python)
+- **Frontend**: Vanilla JavaScript
+- **Database**: PostgreSQL
+- **API Documentation**: Built-in Swagger UI at `/docs`
 
 ## Features
-
-- **FastAPI**: High-performance Python framework with automatic Swagger/OpenAPI docs.
-- **PostgreSQL**: Relational database support via SQLAlchemy ORM.
-- **Structured Architecture**: Clean separation of concerns (models, services, routes).
-- **Pydantic Validation**: Type-safe request/response handling.
-- **Environment Configs**: Manage settings in `.env` file.
+1. URL shortening
+2. Redirect to original URLs
+3. Click statistics tracking:
+   - Total clicks count
+   - Original URL
+4. Simple web interface
+5. REST API endpoints
