@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/styles.css">
+        <title>URL Tracker - Statistics</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">URL Shortener</div>
+                <div class="tagline">Track your link statistics</div>
+            </header>
+
+            <div class="shortener-box">
+                <div class="input-group">
+                    <input type="url" id="input-url" placeholder="Paste your alias here..." required>
+                    <button id="track-btn">Track</button>
+                </div>
+
+                <div class="result-container" id="result-container">
+                    <div class="stats-grid">
+                        <div class="stat-label">Original URL: <span id="original-url">abc</span></div>
+                        <div class="stat-label">Total Clicks: <span id="total-clicks">0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>&copy; 2025. All rights reserved.</p>
+                <a href="index.html" class="home-link">Back to Shortener</a>
+            </footer>
+        </div>
+        <script src="static/js/config.js"></script>
+        <script src="static/js/track.js"></script>
+    </body>
+</html>
