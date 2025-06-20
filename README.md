@@ -7,7 +7,7 @@ A URL shortening service built with FastAPI backend and vanilla JavaScript front
 - **Backend**: FastAPI (Python)
 - **Frontend**: Vanilla JavaScript
 - **Database**: PostgreSQL
-- **API Documentation**: Built-in Swagger UI at `/docs`
+- **API Documentation**: Swagger UI at `/docs`
 
 ## Features
 1. URL shortening
